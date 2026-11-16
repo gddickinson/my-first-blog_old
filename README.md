@@ -19,7 +19,7 @@ python run_web.py        # http://127.0.0.1:8257
 A showcase built from the files (the 2016 code targets Django 1.9, which does not run on current Python, so the site
 does not run it):
 - **How it works**: URL pattern -> view -> template, traced in the code with file:line links, and the page it serves.
-- **What changed**: a file-by-file diff (difflib) against my-first-blog at commit `d6b519a`, plus the views, URL
+- **What changed**: a file-by-file diff (difflib) against my-first-blog at commit `2aaf725`, plus the views, URL
   patterns, templates and settings that changed (ast). The newer repo's files are stored in
   `web/data/newer_snapshot.json` by `python scripts/make_newer_snapshot.py --repo ../my-first-blog`.
 - **Code**: every file with line numbers, highlighting and search (secret-looking strings redacted).

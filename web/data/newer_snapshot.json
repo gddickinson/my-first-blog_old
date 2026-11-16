@@ -1,59 +1,74 @@
 {
  "repo": "gddickinson/my-first-blog",
- "commit": "d6b519a453e21ca7015bd4770ed50990742c63ab",
- "short": "d6b519a",
+ "commit": "2aaf725d4d83c314d45f82870cb90469dc7d23e5",
+ "short": "2aaf725",
  "log": [
   {
-   "sha": "9ce0557",
+   "sha": "90daf69",
    "date": "2017-12-14T12:54:27-07:00",
    "message": "My Django Girls app, first commit"
   },
   {
-   "sha": "42d6e12",
+   "sha": "993a15b",
    "date": "2017-12-14T15:43:42-07:00",
    "message": "Changed the HTML for the site."
   },
   {
-   "sha": "a7f1ae4",
+   "sha": "336c0a2",
    "date": "2017-12-14T16:09:37-07:00",
    "message": "Modified templates to display posts from database."
   },
   {
-   "sha": "b1101bf",
+   "sha": "1f4364c",
    "date": "2017-12-14T16:41:25-07:00",
    "message": "Font changes."
   },
   {
-   "sha": "c60f428",
+   "sha": "0280844",
    "date": "2017-12-14T17:05:28-07:00",
    "message": "Added view and template for detailed blog post as well as CSS for the site."
   },
   {
-   "sha": "f8b24e9",
+   "sha": "95e1f0d",
    "date": "2017-12-14T17:31:58-07:00",
    "message": "Added views to create/edit blog post inside the site."
   },
   {
-   "sha": "d6b519a",
+   "sha": "2aaf725",
    "date": "2026-11-10T14:39:42-06:00",
    "message": "Add MIT licence"
   }
  ],
  "old_log": [
   {
-   "sha": "fb59612",
+   "sha": "dfd2111",
    "date": "2016-01-18T22:10:01-08:00",
    "message": "My Django Girls app, first commit"
   },
   {
-   "sha": "07d494b",
+   "sha": "3f9b1b3",
    "date": "2016-01-21T21:09:34-08:00",
    "message": "Changed the HTML for the site."
   },
   {
-   "sha": "d3509e6",
+   "sha": "bf9e8fe",
    "date": "2026-11-10T14:39:45-06:00",
    "message": "Add MIT licence"
+  },
+  {
+   "sha": "2bc265a",
+   "date": "2026-11-13T17:00:41-06:00",
+   "message": "Move SECRET_KEY out of settings.py into the DJANGO_SECRET_KEY env var"
+  },
+  {
+   "sha": "e3a3fb9",
+   "date": "2026-11-13T17:04:58-06:00",
+   "message": "Add a showcase web interface (port 8257) and a static GitHub Pages site"
+  },
+  {
+   "sha": "c5cc819",
+   "date": "2026-11-16T17:44:02-06:00",
+   "message": "Session log: old SECRET_KEY purged from history"
   }
  ],
  "files": {

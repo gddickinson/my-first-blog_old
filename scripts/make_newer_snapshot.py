@@ -1,7 +1,7 @@
 """Write web/data/newer_snapshot.json: the files of the newer version (gddickinson/my-first-blog) at a fixed commit,
 for the "What changed" page. Hard-coded secret strings are redacted before they are stored.
 
-Run: python scripts/make_newer_snapshot.py [--repo ../my-first-blog] [--commit d6b519a]
+Run: python scripts/make_newer_snapshot.py [--repo ../my-first-blog] [--commit 2aaf725]
 (the commit is the newer repo's master before any web-interface work: the code as written in 2017).
 """
 import argparse
@@ -24,7 +24,7 @@ def git(repo, *args):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--repo", default=str(ROOT.parent / "my-first-blog"))
-    ap.add_argument("--commit", default="d6b519a")
+    ap.add_argument("--commit", default="2aaf725")
     a = ap.parse_args()
     full = git(a.repo, "rev-parse", a.commit).strip()
     files = {p: redact(git(a.repo, "show", f"{full}:{p}"))
